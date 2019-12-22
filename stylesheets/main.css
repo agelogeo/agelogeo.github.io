@@ -56,7 +56,7 @@ a {
   opacity: 1;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1081px) {
   .mainText p {
     font-size: 46px;
     font-weight: 400;
@@ -66,9 +66,40 @@ a {
   }
 
   .contact p {
-    font-size: 2vw;
+    font-size: 50px;
   }
 }
+
+@media (min-width: 1024px) and (max-width: 1080px) {
+  .image-cover {
+    width: 150px;
+    height: 150px;
+  }
+
+  .mainText {
+    height: 300px;
+  }
+
+  .mainText p {
+    font-size: 5vw;
+    font-weight: 400;
+  }
+  .mainText strong {
+    font-size: 6vw;
+  }
+
+  .contact {
+    bottom: 50px;
+  }
+
+  .contact button {
+    font-size: 2vw;
+  }
+  .contact p {
+    font-size: 7vw;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 1023px) {
   .image-cover {
     width: 150px;
@@ -94,6 +125,7 @@ a {
     font-size: 6vw;
   }
 }
+
 @media (min-width: 320px) and (max-width: 767px) {
   .image-cover {
     width: 150px;
@@ -105,11 +137,11 @@ a {
   }
 
   .mainText p {
-    font-size: 38px;
+    font-size: 28px;
     font-weight: 400;
   }
   .mainText strong {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .contact button {
