@@ -70,12 +70,28 @@ a {
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
+  .image-cover {
+    width: 150px;
+    height: 150px;
+  }
+
+  .mainText {
+    height: 150px;
+  }
+
   .mainText p {
-    font-size: 34px;
+    font-size: 26px;
     font-weight: 400;
   }
   .mainText strong {
-    font-size: 36px;
+    font-size: 28px;
+  }
+
+  .contact button {
+    font-size: 2vw;
+  }
+  .contact p {
+    font-size: 6vw;
   }
 }
 @media (min-width: 320px) and (max-width: 767px) {
