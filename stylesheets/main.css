@@ -1,7 +1,6 @@
 html,
 body {
   font-family: "Raleway", sans-serif;
-  font-smoothing: antialiased;
   height: 100%;
 }
 
@@ -10,97 +9,34 @@ a {
   text-decoration: none !important;
 }
 
-#contact {
-  font-size: 25px;
-}
-#contact strong {
-  color: #0fa4df;
+/* CUSTOM */
+.credits {
+  font-size: small;
+  opacity: 0.2;
 }
 
-@media (min-width: 1024px) {
-  #menu-button {
-    font-size: 14px;
-    left: 2.5em;
-    position: fixed;
-    top: 2.5em;
-    z-index: 2;
-  }
-
-  #intro-text h1 p {
-    font-size: 42px;
-    font-weight: 400;
-  }
-  #intro-text h1 strong {
-    font-size: 46px;
-  }
+.accent_color {
+  color: #0fa4df !important;
 }
-@media (min-width: 768px) and (max-width: 1023px) {
-  #menu-button {
-    font-size: 12px;
-    left: 2.5em;
-    position: fixed;
-    top: 2.5em;
-    z-index: 2;
-  }
 
-  #intro-text h1 p {
-    font-size: 38px;
-    font-weight: 400;
-  }
-  #intro-text h1 strong {
-    font-size: 42px;
-  }
+.contact {
+  width: 100%;
+  bottom: 25px;
+  text-align: center;
 }
-@media (min-width: 320px) and (max-width: 767px) {
-  #menu-button {
-    font-size: 10px;
-    left: 2.5em;
-    position: fixed;
-    top: 2.5em;
-    z-index: 2;
-  }
 
-  #intro-text h1 p {
-    font-size: 30px;
-    font-weight: 400;
-  }
-  #intro-text h1 strong {
-    font-size: 34px;
-  }
-
-  #contact button {
-    font-size: 0.7em;
-  }
-  #contact p {
-    font-size: 0.7em;
-  }
+.mainDiv {
+  width: 100%;
 }
+
+/* END OF CUSTOM */
+
 .dark-gray-background {
   background-color: #222426;
 }
 
-.dark-gray-font {
-  color: #222426 !important;
-}
-
 .light-white-font {
   color: #fdfdff;
-}
-
-.light-blue-background {
-  background-color: #edf9f9;
-}
-
-.middle-blue-font {
-  color: #0fa4df !important;
-}
-
-.middle-blue-background {
-  background-color: #1de9b6;
-}
-
-.dark-blue-font {
-  color: #546a7b;
 }
 
 .image-cover {
@@ -109,81 +45,8 @@ a {
   border: 1px solid white;
   border-radius: 50%;
   object-fit: cover;
-  object-position: center right;
-  margin-left: 50%;
-  margin-right: 50%;
-  text-align: center;
-  display: block;
-  position: relative;
-  top: 25%;
   transform: translate(-50%, -70%);
-}
-
-.image {
-  top: 200px;
-  left: 50%;
-  position: absolute;
-  transform: translate(-50%, -55%);
-}
-
-.main-center {
-  margin-top: 40vh;
-  left: 50%;
-  position: relative;
-  transform: translate(-50%, -55%);
-}
-
-.center {
-  top: 25%;
-  left: 50%;
-  position: relative;
-  transform: translate(-50%, -55%);
-}
-
-.bottom {
-  top: 45%;
-  left: 50%;
-  position: relative;
-  transform: translate(-50%, -50%);
-}
-.container-fluid {
-  min-height: 100%;
-  padding: 0;
-}
-
-.fill {
-  height: 100%;
-  min-height: 100%;
-}
-
-.footer {
-  bottom: 0;
-  min-height: 30%;
-  position: relative;
-}
-.footer .container {
-  left: 50%;
-  padding-top: 1.3em;
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-}
-
-.fixed-width {
-  max-width: 300px;
-  min-width: 300px;
-}
-
-.credits {
-  font-size: small;
-  opacity: 0.2;
-}
-
-.email {
-  font-size: 0.9em;
-  height: 2.4em;
-  width: 8.7em;
+  top: 22%;
 }
 
 .typed-cursor {
@@ -191,6 +54,54 @@ a {
   -moz-animation: blink 0.7s infinite;
   animation: blink 0.7s infinite;
   opacity: 1;
+}
+
+@media (min-width: 1024px) {
+  .mainText p {
+    font-size: 46px;
+    font-weight: 400;
+  }
+  .mainText strong {
+    font-size: 48px;
+  }
+
+  .contact p {
+    font-size: 2vw;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .mainText p {
+    font-size: 34px;
+    font-weight: 400;
+  }
+  .mainText strong {
+    font-size: 36px;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .image-cover {
+    width: 150px;
+    height: 150px;
+  }
+
+  .mainText {
+    height: 150px;
+  }
+
+  .mainText p {
+    font-size: 26px;
+    font-weight: 400;
+  }
+  .mainText strong {
+    font-size: 28px;
+  }
+
+  .contact button {
+    font-size: 2vw;
+  }
+  .contact p {
+    font-size: 6vw;
+  }
 }
 
 @keyframes blink {
