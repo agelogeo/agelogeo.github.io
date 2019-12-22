@@ -414,7 +414,7 @@ function handleTyping() {
       "I'm an Android Developer.",
       "I'm also a fan of Flutter.",
       "I like the idea of cross-platform apps.",
-      "I also accept Bitcoin donations . . ."
+      "I accept Bitcoin donations too. . ."
     ],
     typeSpeed: 50,
     starDelay: 200,
