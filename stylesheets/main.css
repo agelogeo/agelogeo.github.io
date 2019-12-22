@@ -108,7 +108,7 @@ a {
   height: 200px;
   border: 1px solid white;
   border-radius: 50%;
-  margin: 20px;
+  margin: 2vh;
   object-fit: cover;
   object-position: center right;
 }

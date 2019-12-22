@@ -9757,6 +9757,8 @@ button.bg-dark:focus {
 }
 
 .text-center {
+  max-width: 100vh;
+  max-height:10vh;
   text-align: center !important;
 }
 
