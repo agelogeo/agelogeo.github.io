@@ -67,7 +67,7 @@ $timeline-container-width:100%;
       letter-spacing:3px;
       width:100%;
       position: absolute;
-      color: #0fa4df;
+      color: rgba(#fff,.5);
       font-size:13px;
       font-family:$heading-font;
      border-left:2px solid rgba(#fff,.5);
@@ -79,7 +79,6 @@ $timeline-container-width:100%;
     }
     &:nth-child(even) {
       align-self: flex-end;
-      color: #0fa4df;
       &:before {
         right: auto;
         text-align:right;

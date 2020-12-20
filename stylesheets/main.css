@@ -9,10 +9,22 @@ a {
   text-decoration: none !important;
 }
 
+.Blink {
+  animation: blinker 1.5s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+}
+
+@keyframes blinker {  
+from { opacity: 1; }
+to { opacity: 0; }
+}
+
 /* CUSTOM */
 .credits {
-  font-size: small;
+  font-size: medium;
   opacity: 0.2;
+  bottom: 25px;
+  position: inherit;
+  text-align: center;
 }
 
 .accent_color {
@@ -22,6 +34,7 @@ a {
 .contact {
   width: 100%;
   bottom: 25px;
+  position: inherit;
   text-align: center;
 }
 
@@ -33,6 +46,7 @@ a {
 
 .dark-gray-background {
   background-color: #222426;
+  position: relative;
 }
 
 .light-white-font {

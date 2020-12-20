@@ -7,7 +7,7 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,700" rel="stylesheet"
     type="text/css" />
   <link href="https://fonts.googleapis.com/css?family=Droid+Serif:100,200,400,700" rel="stylesheet" type="text/css" />
@@ -18,7 +18,8 @@
   <link rel="stylesheet" href="stylesheets/particles.css" />
   <link rel="stylesheet" href="stylesheets/bitcoin_modal.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="stylesheets/style.css">
+  <link rel="stylesheet" href="scss/style.scss">
   <link rel="stylesheet" href="stylesheets/lightbox.css">
   <link rel="stylesheet" href="stylesheets/mklb.css">
   <!-- ASSETS -->
@@ -28,7 +29,7 @@
 <body class="dark-gray-background ">
   <div class="particle-network-animation"></div>
 
-  <div style="height: 100%;">
+  <div style="min-height: 100%; overflow: auto;">
     <img class="image-cover w3-display-topmiddle" alt="picture of me"
       src="https://avatars2.githubusercontent.com/u/24185301?s=460&amp;v=4" />
 
@@ -45,16 +46,18 @@
       </h1>
     </div>
   </div>
-  <br>
+  <div class="w3-display-bottommiddle" style="bottom: 100px; position: absolute; text-align: center;">
+    <h2 class="timeline-header__title">PROJECTS</h2>
+    <h3 class="timeline-header__subtitle">ANDROID | IONIC | FLUTTER</h3>
+    <br>
+    <a href="#timeline-1"><i class="fa fa-chevron-down Blink" style="font-size:48px; color: white; "></i></a>
+  </div>
   <!-- PROJECTS -->
   <div class="timeline-container" id="timeline-1">
-    <div class="timeline-header">
-      <h2 class="timeline-header__title">PROJECTS</h2>
-      <h3 class="timeline-header__subtitle">ANDROID | IONIC | FLUTTER</h3>
-    </div>
+
     <div class="timeline">
       <!-- Daily Betting Tips | ANDROID -->
-      <div class="timeline-item" data-text="2016 NOVEMBER">
+      <div class="timeline-item" data-text="2017 NOVEMBER">
         <div class="timeline__content">
           <img class="mklbItem" src="assets/images/daily/logo.png" style="width: 375px; ">
           <h2 class="timeline__content-title">Daily Betting Tips</h2>
@@ -73,26 +76,6 @@
           </div>
         </div>
       </div>
-      <!-- Loyalty App | IONIC -->
-      <div class="timeline-item" data-text="2017 SEPTEMBER">
-        <div class="timeline__content">
-          <img class="mklbItem" src="assets/images/loyalty/logo.png" style="width: 375px; ">
-          <h2 class="timeline__content-title">Loyalty App</h2>
-          <p class="timeline__content-desc" style="text-align: center;">Ionic Framework | Dissertation</br>
-            Status : Not Published</br></p>
-          <div class="row" style="display: flex;">
-              <div class="column" style="flex: 30.33%; padding: 5px;">
-                  <img class="mklbItem" src="assets/images/loyalty/1.png" style="width:100px">
-                </div>
-            <div class="column" style="flex: 30.33%; padding: 5px;">
-                  <img class="mklbItem" src="assets/images/loyalty/4.png" style="width:100px">
-                </div>
-            <div class="column" style="flex: 30.33%; padding: 5px;">
-                  <img class="mklbItem" src="assets/images/loyalty/3.png" style="width:100px">
-                </div>
-          </div>
-        </div>
-      </div>
       <!-- Givealike | IONIC -->
       <div class="timeline-item" data-text="2018 JUNE">
         <div class="timeline__content">
@@ -107,6 +90,26 @@
             <div class="column" style="flex: 33.33%; padding: 5px;">
                   <img class="mklbItem" src="assets/images/givealike/screen.jpg" style="width:100px"
                 data-video-src="https://www.youtube.com/watch?v=Pzga-qWVkF0&ab_channel=ZissisRoumbos">
+                </div>
+          </div>
+        </div>
+      </div>
+      <!-- Loyalty App | IONIC -->
+      <div class="timeline-item" data-text="2018 SEPTEMBER">
+        <div class="timeline__content">
+          <img class="mklbItem" src="assets/images/loyalty/logo.png" style="width: 375px; ">
+          <h2 class="timeline__content-title">Loyalty App</h2>
+          <p class="timeline__content-desc" style="text-align: center;">Ionic Framework | Dissertation</br>
+            Status : Not Published</br></p>
+          <div class="row" style="display: flex;">
+              <div class="column" style="flex: 30.33%; padding: 5px;">
+                  <img class="mklbItem" src="assets/images/loyalty/1.png" style="width:100px">
+                </div>
+            <div class="column" style="flex: 30.33%; padding: 5px;">
+                  <img class="mklbItem" src="assets/images/loyalty/4.png" style="width:100px">
+                </div>
+            <div class="column" style="flex: 30.33%; padding: 5px;">
+                  <img class="mklbItem" src="assets/images/loyalty/3.png" style="width:100px">
                 </div>
           </div>
         </div>
@@ -176,8 +179,8 @@
     </p>
     <!-- ROW 3 -->
   </div>
-  <div class="w3-display-bottommiddle">
-    <p class="credits light-white-font">
+  <div class="w3-display-bottommiddle credits ">
+    <p class="light-white-font">
       @agelogeo
     </p>
   </div>
