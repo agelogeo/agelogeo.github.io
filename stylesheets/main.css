@@ -1,5 +1,4 @@
-html,
-body {
+html, body {
   font-family: "Raleway", sans-serif;
   height: 100%;
 }
@@ -10,20 +9,34 @@ a {
 }
 
 .Blink {
-  animation: blinker 1.5s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+  animation: blinker 1.5s cubic-bezier(.5, 0, 1, 1) infinite alternate;
 }
 
-@keyframes blinker {  
-from { opacity: 1; }
-to { opacity: 0; }
+@keyframes blinker {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }
 
+.logos{
+  width: 100vh;
+}
 /* CUSTOM */
+
 .credits {
   font-size: medium;
   opacity: 0.2;
   bottom: 25px;
   position: inherit;
+  text-align: center;
+}
+
+.projects {
+  bottom: 100px;
+  position: absolute;
   text-align: center;
 }
 
@@ -75,7 +88,6 @@ to { opacity: 0; }
     width: 25vh;
     height: 25vh;
   }
-
   .mainText p {
     font-size: 5vh;
     font-weight: 400;
@@ -83,22 +95,21 @@ to { opacity: 0; }
   .mainText strong {
     font-size: 5vh;
   }
-
   .contact p {
     font-size: 50px;
   }
 }
+
 /* A8 */
+
 @media (min-width: 768px) and (max-width: 1080px) {
   .image-cover {
     width: 25vh;
     height: 25vh;
   }
-
   .mainText {
     height: 150px;
   }
-
   .mainText p {
     font-size: 4vh;
     font-weight: 400;
@@ -106,7 +117,6 @@ to { opacity: 0; }
   .mainText strong {
     font-size: 4vh;
   }
-
   .contact button {
     font-size: 2vw;
   }
@@ -120,11 +130,9 @@ to { opacity: 0; }
     width: 25vh;
     height: 25vh;
   }
-
   .mainText {
     height: 150px;
   }
-
   .mainText p {
     font-size: 28px;
     font-weight: 400;
@@ -132,7 +140,6 @@ to { opacity: 0; }
   .mainText strong {
     font-size: 30px;
   }
-
   .contact button {
     font-size: 2vw;
   }
@@ -152,6 +159,7 @@ to { opacity: 0; }
     opacity: 1;
   }
 }
+
 @-webkit-keyframes blink {
   0% {
     opacity: 1;
@@ -163,6 +171,7 @@ to { opacity: 0; }
     opacity: 1;
   }
 }
+
 @-moz-keyframes blink {
   0% {
     opacity: 1;

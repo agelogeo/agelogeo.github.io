@@ -96,7 +96,7 @@
   .timeline-item {
     align-self: baseline !important;
     width: 100%;
-    padding: 0 30px 150px 80px;
+    padding: 0 30px 150px 16vw;
   }
   .timeline-item:before {
     left: 10px !important;

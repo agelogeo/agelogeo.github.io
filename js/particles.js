@@ -17,7 +17,7 @@
     this.ctx = this.canvas.getContext("2d");
     this.particleNetwork = new ParticleNetwork(this);
 
-    this.bindUiActions();
+    //this.bindUiActions();
 
     return this;
   };
