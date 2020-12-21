@@ -52,8 +52,10 @@ function _mklbAddImage(item) {
 
 function _mklbAddVideo(item) {
     let video = document.createElement('video');
-    video.setAttribute('autoplay', true);
+    video.setAttribute('autoplay', false);
+    video.muted = "muted";
     video.setAttribute('controls', true);
+    
     let source = document.createElement('source');
     source.src = item.dataset.videoSrc;
     source.type = 'video/mp4';
