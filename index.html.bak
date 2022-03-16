@@ -153,20 +153,7 @@
           <h2 class="timeline__content-title">StoFerno Rider App</h2>
           <p class="timeline__content-desc" style="text-align: center;">Flutter | Courier Real-Time Tracking</br>
             Status : Active</br></p>
-              <div class="row" style="display: flex;">
-              <div class="column" style="flex: 30.33%; padding: 5px;">
-                  <img class="mklbItem" src="assets/images/rider/screen_1.jpg" style="width:100px">
-                </div>
-            <div class="column" style="flex: 30.33%; padding: 5px;">
-                  <img class="mklbItem" src="assets/images/rider/screen_alt_1.jpg" style="width:100px">
-                </div>
-            <div class="column" style="flex: 30.33%; padding: 5px;">
-                  <img class="mklbItem" src="assets/images/rider/screen_2.jpg" style="width:100px">
-                </div>
-			  <div class="column" style="flex: 30.33%; padding: 5px;">
-                  <img class="mklbItem" src="assets/images/rider/screen_alt_2.jpg" style="width:100px">
-                </div>
-          </div>
+              <img class="mklbItem" src="assets/images/tipster/screen.jpg" style=" height: 165px; width:100px;">
         </div>
       </div>
     </div>
